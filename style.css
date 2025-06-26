@@ -23,7 +23,8 @@
 .border-gradient-desgin {
   /* border-image-source: linear-gradient(346deg, rgba(164, 189, 143, 1) 13%, rgba(158, 70, 52, 1) 48%, rgba(46, 46, 191, 1) 73%); */
   /* border-image-source: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 74%); */
-  border-image-source: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(237, 188, 102, 1) 6%, rgba(9, 9, 121, 1) 44%, rgba(0, 212, 255, 1) 74%);
+  border-image-source: radial-gradient(circle, rgba(155, 134, 42, 1) 0%, rgba(34, 139, 34, 1) 50%, rgba(237, 221, 83, 1) 100%);
+
 }
 
 /* Extracurricular colors */
@@ -49,4 +50,23 @@
 
 .blueish {
   color: steelblue;
+}
+
+/* hero */
+
+.btn-outline-info {
+  --bs-btn-color: #228B22;
+  --bs-btn-border-color: #228B22;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #228B22;
+  --bs-btn-hover-border-color: #228B22;
+  --bs-btn-focus-shadow-rgb: 13, 202, 240;
+  --bs-btn-active-color:#fff: #fff;
+  --bs-btn-active-bg: #228B22;
+  --bs-btn-active-border-color: #228B22;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #6e846f;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #6e846f;
+  --bs-gradient: none;
 }

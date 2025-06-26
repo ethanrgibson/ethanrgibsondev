@@ -14,4 +14,4 @@ function changeColor() {
     }
   }
 }
-setInterval(changeColor, 500)
+setInterval(changeColor, 750)
