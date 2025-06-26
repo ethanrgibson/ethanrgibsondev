@@ -5,10 +5,26 @@
 }
 
 
-.basic {
-  color: red;
+.red {
+  color: indianred;
 }
 
-.exciting {
-  color: green;
+.green {
+  color: darkolivegreen;
+}
+
+.blue {
+  color: cadetblue;
+}
+
+.goldenrod{
+color: goldenrod;
+}
+
+.pink{
+  color: pink;
+}
+
+.color{
+  color: steelblue;
 }
