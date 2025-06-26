@@ -1,4 +1,4 @@
-const classes = ['red', 'color', 'blue', 'black', 'goldenrod', 'green', 'pink']
+const classes = ['red', 'blueish', 'goldenrod', 'black', 'blue', 'green', 'pink']
 let index = -1
 function changeColor() {
   index++

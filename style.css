@@ -1,10 +1,32 @@
+/* fonts */
+
 .ledger-regular {
   font-family: "Ledger", serif;
   font-weight: 400;
   font-style: normal;
 }
 
+/* nav */
 
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 2;
+  border-width: 5px;
+}
+
+.only-bottom {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.border-gradient-desgin {
+  /* border-image-source: linear-gradient(346deg, rgba(164, 189, 143, 1) 13%, rgba(158, 70, 52, 1) 48%, rgba(46, 46, 191, 1) 73%); */
+  /* border-image-source: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 74%); */
+  border-image-source: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(237, 188, 102, 1) 6%, rgba(9, 9, 121, 1) 44%, rgba(0, 212, 255, 1) 74%);
+}
+
+/* Extracurricular colors */
 .red {
   color: indianred;
 }
@@ -17,14 +39,14 @@
   color: cadetblue;
 }
 
-.goldenrod{
-color: goldenrod;
+.goldenrod {
+  color: goldenrod;
 }
 
-.pink{
+.pink {
   color: pink;
 }
 
-.color{
+.blueish {
   color: steelblue;
 }
