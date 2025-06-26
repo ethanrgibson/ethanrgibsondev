@@ -13,36 +13,63 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ledger&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
   <title>Ethan Gibson</title>
 </head>
 
 <body class="ledger-regular">
   <!-- Nav -->
-  <nav class="border-gradient only-bottom border-gradient-desgin">
+  <nav class="navbar navbar-expanded-md border-gradient only-bottom border-gradient-desgin">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="d-flex align-items-center justify-content-between">
-            <div class="text-center m-5">
-              <b class="display-5">
-                Ethan R. Gibson
-              </b>
-            </div>
-            <div class="d-flex align-items-center gap-5 px-2 fs-5">
-              <div>
-                <b>Projects</b>
-              </div>
-              <div>
-                <b>Services</b>
-              </div>
-              <div>
-                <b>Contact</b>
-              </div>
-              <div class="red" id="magic">
-                <b>Extracurricular</b>
-              </div>
-            </div>
+      <div class="d-flex align-items-center justify-content-between">
+        <div class="text-center m-5">
+          <b class="display-5">
+            Ethan R. Gibson
+          </b>
+        </div>
+        <!-- <div class="d-flex align-items-center gap-5 px-2 fs-5">
+          <div>
+            <b>Projects</b>
           </div>
+          <div>
+            <b>Services</b>
+          </div>
+          <div>
+            <b>Contact</b>
+          </div>
+          <div class="red" id="magic">
+            <b>Extracurricular</b>
+          </div>
+        </div> -->
+        <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="mdi mdi-menu text-dark"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-links">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <b>Projects</b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <b>Services</b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <b>Contact</b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="red nav-link" href="#" id="magic">
+                <b>Extracurricular</b>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -66,9 +93,9 @@
             </p>
           </div>
           <div class="w-100 text-start">
-              <a href="mailto:ethanrgibsondev@gmail.com" class="btn btn-outline-info" role="button">
-                Let's Connect!
-              </a>
+            <a href="mailto:ethanrgibsondev@gmail.com" class="btn btn-outline-info" role="button">
+              Let's Connect!
+            </a>
           </div>
         </div>
       </div>
@@ -82,6 +109,7 @@
 
 
 </body>
+
 <script src="app.js"></script>
 
 </html>
