@@ -114,6 +114,43 @@ a {
   max-width: 80dvh
 }
 
+@media screen AND (max-width: 768px) {
+
+  /* nav */
+
+  .nav-menu {
+    font-size: 18px;
+    margin: 0.5rem;
+    display: block;
+    text-align: center;
+  }
+
+  .name {
+    font-size: 27px;
+    font-weight: bold;
+  }
+
+
+  /* hero */
+
+  .alignment {
+    text-align: center;
+  }
+
+  /* Projects */
+
+  .p-align {
+    justify-content: center;
+  }
+
+  .project-img {
+    height: 30dvh;
+    max-width: 48dvh;
+  }
+
+}
+
+
 @media screen AND (max-width: 425px) {
 
   /* nav */
@@ -144,8 +181,8 @@ a {
   }
 
   .project-img {
-  height: 30dvh;
-  max-width: 48dvh;
-}
+    height: 30dvh;
+    max-width: 48dvh;
+  }
 
 }
