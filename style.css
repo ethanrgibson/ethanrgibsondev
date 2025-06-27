@@ -77,7 +77,7 @@ a {
 /* hero */
 
 .hero {
-  min-height: 75vh;
+  min-height: 100vh;
 }
 
 .btn-outline-info {
@@ -97,11 +97,17 @@ a {
   --bs-gradient: none;
 }
 
+.connect-btn {
+  text-align: start;
+}
+
 
 
 
 
 @media screen AND (max-width: 425px) {
+
+  /* nav */
 
   .nav-menu {
     font-size: 18px;
@@ -110,8 +116,16 @@ a {
     text-align: center;
   }
 
-  .name{
-    font-size: 20px;
+  .name {
+    font-size: 27px;
+    font-weight: bold;
+  }
+
+
+  /* hero */
+
+  .connect-btn {
+    text-align: center;
   }
 
 }
