@@ -109,6 +109,11 @@ a {
   justify-content: start;
 }
 
+.project-img {
+  height: 30dvh;
+  max-width: 80dvh
+}
+
 @media screen AND (max-width: 425px) {
 
   /* nav */
@@ -137,5 +142,10 @@ a {
   .p-align {
     justify-content: center;
   }
+
+  .project-img {
+  height: 30dvh;
+  max-width: 48dvh;
+}
 
 }
