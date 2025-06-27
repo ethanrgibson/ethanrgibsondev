@@ -97,13 +97,17 @@ a {
   --bs-gradient: none;
 }
 
-.connect-btn {
+.alignment {
   text-align: start;
 }
 
 
+/* Projects */
 
-
+.p-align {
+  display: flex;
+  justify-content: start;
+}
 
 @media screen AND (max-width: 425px) {
 
@@ -124,8 +128,14 @@ a {
 
   /* hero */
 
-  .connect-btn {
+  .alignment {
     text-align: center;
+  }
+
+  /* Projects */
+
+  .p-align {
+    justify-content: center;
   }
 
 }
