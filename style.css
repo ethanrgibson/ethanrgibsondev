@@ -32,6 +32,21 @@ a {
 
 }
 
+.nav-menu {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
 /* Extracurricular colors */
 .red {
   color: indianred;
@@ -80,4 +95,23 @@ a {
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #6e846f;
   --bs-gradient: none;
+}
+
+
+
+
+
+@media screen AND (max-width: 425px) {
+
+  .nav-menu {
+    font-size: 18px;
+    margin: 0.5rem;
+    display: block;
+    text-align: center;
+  }
+
+  .name{
+    font-size: 20px;
+  }
+
 }
