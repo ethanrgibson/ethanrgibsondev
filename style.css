@@ -110,7 +110,7 @@ a {
 }
 
 .project-img {
-  height: 30dvh;
+  height: 45dvh;
   max-width: 80dvh
 }
 
@@ -135,7 +135,7 @@ a {
   display: flex;
 }
 
-/* 
+/* Scrolling stuff
 .scroller {
   max-width: 600px;
   outline: 3px solid lime;
