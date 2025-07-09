@@ -11,6 +11,15 @@ a {
   color: black;
 }
 
+
+.cta {
+  color: #228B22;
+}
+
+.cta:hover {
+  text-decoration: underline;
+}
+
 /* nav */
 
 .border-gradient {
@@ -117,22 +126,17 @@ a {
 
 /* Services */
 
-.service-img-coding {
-  height: 240px;
-  width: 240px
+.services{
+  min-height: 45dvh;
 }
 
-.service-img-dd {
-  height: 240px;
-  width: 270px
-}
 
-.coding {
-  display: flex;
-}
+/* Request A Quote */
 
-.drag-drop {
-  display: flex;
+.img-quote{
+  height: 80dvh;
+  object-fit: contain;
+  object-position: center;
 }
 
 /* Scrolling stuff
