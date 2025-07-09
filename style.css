@@ -126,14 +126,14 @@ a {
 
 /* Services */
 
-.services{
+.services {
   min-height: 45dvh;
 }
 
 
-/* Request A Quote */
+/* Process */
 
-.img-quote{
+.img-quote {
   height: 80dvh;
   object-fit: contain;
   object-position: center;
@@ -205,6 +205,11 @@ a {
     max-width: 54dvh;
   }
 
+  /* Process */
+  .img-quote {
+    height: 30dvh;
+  }
+
 }
 
 
@@ -250,6 +255,11 @@ a {
 
   .drag-drop {
     display: block;
+  }
+
+ /* Process */
+  .img-quote {
+    height: 25dvh;
   }
 
 }
