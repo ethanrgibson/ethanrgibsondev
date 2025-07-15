@@ -139,6 +139,15 @@ a {
   object-position: center;
 }
 
+
+/* extra */
+
+.book-img{
+  height: 65dvh;
+}
+
+
+
 /* Scrolling stuff
 .scroller {
   max-width: 600px;
