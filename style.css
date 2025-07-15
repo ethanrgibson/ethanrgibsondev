@@ -124,6 +124,11 @@ a {
 }
 
 
+/* Reviews */
+.review-card {
+  height: 35dvh;
+}
+
 /* Services */
 
 .services {
@@ -142,7 +147,7 @@ a {
 
 /* extra */
 
-.book-img{
+.book-img {
   height: 65dvh;
 }
 
@@ -214,9 +219,19 @@ a {
     max-width: 54dvh;
   }
 
+  /* Review */
+  .review-card {
+    height: fit-content;
+  }
+
   /* Process */
   .img-quote {
     height: 30dvh;
+  }
+
+  /* Extra */
+  .book-img {
+    height: 45dvh;
   }
 
 }
@@ -266,7 +281,13 @@ a {
     display: block;
   }
 
- /* Process */
+  /* Reviews */
+
+  .review-card {
+    height: fit-content;
+  }
+
+  /* Process */
   .img-quote {
     height: 45dvh;
   }
